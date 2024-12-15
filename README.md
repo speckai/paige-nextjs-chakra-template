@@ -1,6 +1,6 @@
 # Paige Template
 
-A minimal landing page template built with Next.js and Tailwind CSS.
+A minimal landing page template built with Next.js and Chakra UI.
 
 ## Getting Started
 
@@ -16,10 +16,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 - `app/page.tsx` - Main landing page component
 - `app/layout.tsx` - Root layout component
-- `app/globals.css` - Global styles
+- `app/providers.tsx` - Chakra UI provider
 
 ## Built With
 
 - [Next.js](https://nextjs.org)
-- [Tailwind CSS](https://tailwindcss.com)
+- [Chakra UI](https://chakra-ui.com)
 - [Paige](https://paige.sh)
