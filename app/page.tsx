@@ -1,17 +1,27 @@
+"use client";
+
+import { Box, Container, Heading, Text, VStack } from "@chakra-ui/react";
+
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50">
-      <main className="container mx-auto px-4">
-        <div className="max-w-2xl mx-auto bg-white rounded-xl shadow-lg p-8">
-          <h1 className="text-4xl font-bold text-center mb-8">
-            Paige Template
-          </h1>
-          <p className="text-center text-lg text-gray-600">
-            Paige is currently setting up your project. The changes will be
-            reflected here shortly.
-          </p>
-        </div>
-      </main>
-    </div>
+    <Box
+      minH="100vh"
+      display="flex"
+      alignItems="center"
+      justifyContent="center"
+      bg="gray.50"
+    >
+      <Container maxW="container.lg" px={4}>
+        <Box maxW="2xl" mx="auto" bg="white" rounded="xl" shadow="lg" p={8}>
+          <VStack spacing={8}>
+            <Heading size="2xl">Paige Template</Heading>
+            <Text fontSize="lg" color="gray.600" textAlign="center">
+              Paige is currently setting up your project. The changes will be
+              reflected here shortly.
+            </Text>
+          </VStack>
+        </Box>
+      </Container>
+    </Box>
   );
 }
