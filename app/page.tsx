@@ -9,13 +9,12 @@ export default function Home() {
       display="flex"
       alignItems="center"
       justifyContent="center"
-      bg="gray.50"
     >
       <Container maxW="container.lg" px={4}>
-        <Box maxW="2xl" mx="auto" bg="white" rounded="xl" shadow="lg" p={8}>
+        <Box maxW="2xl" mx="auto" rounded="xl" shadow="lg" p={8}>
           <VStack spacing={8}>
             <Heading size="2xl">Paige Template</Heading>
-            <Text fontSize="lg" color="gray.600" textAlign="center">
+            <Text fontSize="lg" textAlign="center">
               Paige is currently setting up your project. The changes will be
               reflected here shortly.
             </Text>
