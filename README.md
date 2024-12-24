@@ -1,6 +1,6 @@
-# Paige Template
+# Paige App
 
-A minimal landing page template built with Next.js and Chakra UI.
+A minimal landing page built with Next.js and Chakra UI.
 
 ## Getting Started
 
